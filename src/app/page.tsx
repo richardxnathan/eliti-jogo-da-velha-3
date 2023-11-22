@@ -23,10 +23,11 @@ export default function Home() {
 
   return (
     <>
-      <header></header>
+      <header>
+        <title>Jogo da Velha</title>
+      </header>
       <main className='text-center text-6xl font-bold'>
-        <h1>Jogo da Velha</h1>
-        <br/>
+        <h1 className='mt-16 mb-20'>Jogo da Velha</h1>
         <table className='flex justify-center text-center'>
           <tbody>
             <tr>
